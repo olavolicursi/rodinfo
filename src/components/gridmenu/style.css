@@ -1,0 +1,14 @@
+.sidebar {
+    background: var(--grey-300);
+    border-radius: 16px;
+    /*overflow: hidden;*/
+}
+
+.menu button {
+    width: 50%;
+    height: 6rem;
+}
+
+
+
+
