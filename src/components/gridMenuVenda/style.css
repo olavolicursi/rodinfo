@@ -1,3 +1,4 @@
+
 .wrapper {
     max-width: 100rem;
     margin: 2rem auto;
@@ -8,3 +9,17 @@
     gap: 0.5rem;
     align-items: flex-start;
 }
+
+.layout_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.layout_forms {
+    display: flex;
+}
+
+
+
+
+

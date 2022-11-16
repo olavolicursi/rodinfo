@@ -1,0 +1,9 @@
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.botao button {
+    width: 150px;
+    margin-right: 5px;
+}

@@ -1,9 +1,9 @@
 import Navbar from "../../components/navbar";
-import Footer from "../../components/footer";
+// import Footer from "../../components/footer";
 // import api from "../../services/api";
 // import { useEffect, useState } from "react";
-import GridMenu from "../../components/gridmenu";
-import styles from './style.css';
+import GridMenu from "../../components/gridMenuVenda";
+import './style.css';
 
 function Home(){
     // const [teste, setTeste] = useState();
@@ -20,10 +20,11 @@ function Home(){
     return(
         <>
             <Navbar />
-            <div className={styles.wrapper}>
-                <GridMenu />
-            </div>
-            <Footer />
+            <GridMenu />
+       
+            
+
+            {/* <Footer /> */}
             {/* <div>
                 <p>{teste?.title}</p>
                 <p>{teste?.id}</p>
