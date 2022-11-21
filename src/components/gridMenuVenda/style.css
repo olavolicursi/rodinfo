@@ -1,7 +1,7 @@
 
 .wrapper {
     max-width: 100rem;
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 0 1rem;
 
     display: grid;
@@ -16,15 +16,33 @@
 }
 
 .layout_forms {
+    margin-top: 10px;
     display: flex;
+    height: 35px;
 }
 
 .tabProducts {
     margin-top: 10px;
 }
 
+.searchBar {
+    margin-left: 164px;
+}
+.searchBar input {
+    width: 140px;
+}
 
-
+.backgroundProducts {
+    display: flex;
+    justify-content: center;
+    background: rgb(241, 241, 241);
+    border-radius: 5px;
+    width: 98%;
+    height: 27rem;
+    margin: 1rem;
+    margin-left: 0.9rem;
+    padding: 0 1rem;
+}
 
 
 

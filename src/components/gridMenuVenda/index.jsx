@@ -24,6 +24,10 @@ function GridMenuVenda(props) {
                         <Form placeholder='Código'/>
                         <Form placeholder='Nome do Cliente'/>
                         <Form placeholder='Vendedor'/>
+                        <form className="searchBar d-flex" role="search">
+                            <input className="form-control me-1" type="search" placeholder="Buscar Venda" aria-label="Search" />
+                            <button className="btn btn-outline-success" type="submit">Confirma</button>
+                        </form>
                     </div>
                     <div className='layout_forms'>
                         <Form placeholder='Código'/>
@@ -39,6 +43,7 @@ function GridMenuVenda(props) {
                     <div className='tabProducts'>
                         <TabProducts />
                     </div>
+                    <div className='backgroundProducts' />
                 </div>
             </div>
             
