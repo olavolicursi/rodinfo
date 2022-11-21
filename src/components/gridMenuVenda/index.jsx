@@ -2,6 +2,7 @@ import './style.css'
 import Buttons from '../buttons';
 import AsideMenu from '../asideMenu';
 import Form from '../form';
+import TabProducts from '../tabProducts';
 
 function GridMenuVenda(props) {
     return (
@@ -34,6 +35,9 @@ function GridMenuVenda(props) {
                         <Form placeholder='Quantidade'/>
                         <Form placeholder='Pr. Unitario'/>
 
+                    </div>
+                    <div className='tabProducts'>
+                        <TabProducts />
                     </div>
                 </div>
             </div>
