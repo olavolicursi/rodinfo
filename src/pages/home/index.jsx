@@ -1,4 +1,3 @@
-import Navbar from "../../components/navbar";
 // import Footer from "../../components/footer";
 // import api from "../../services/api";
 // import { useEffect, useState } from "react";
@@ -19,7 +18,6 @@ function Home(){
 
     return(
         <>
-            <Navbar />
             <GridMenu />
        
             

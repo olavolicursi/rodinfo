@@ -1,32 +1,34 @@
+import {Link} from 'react-router-dom';
+
 function NavItemDropdown(props) {
     return(
         <>
             <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+            <Link className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/venda">
                 {props.name}
-            </a>
+            </Link>
             <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">{props.item1}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item2}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item3}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item4}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item5}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item6}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item7}</a></li> 
-                <li><a className="dropdown-item" href="#">{props.item8}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item9}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item10}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item11}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item12}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item13}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item14}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item15}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item16}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item17}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item18}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item19}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item20}</a></li>
-                <li><a className="dropdown-item" href="#">{props.item21}</a></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item1}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item2}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item3}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item4}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item5}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item6}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item7}</Link></li> 
+                <li><Link className="dropdown-item" to="/venda">{props.item8}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item9}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item10}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item11}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item12}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item13}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item14}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item15}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item16}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item17}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item18}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item19}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item20}</Link></li>
+                <li><Link className="dropdown-item" to="/venda">{props.item21}</Link></li>
             </ul>
             </li>
         </>

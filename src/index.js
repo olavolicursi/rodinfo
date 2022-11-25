@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Venda from './pages/venda';
+import Rotas from './rotas';
+
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <Venda />
+    <Rotas />
   </>
 );
 
